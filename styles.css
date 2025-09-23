@@ -111,3 +111,24 @@
     width: 150px;
     text-align: center;
 }
+
+/* Quote section */
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 70px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote {
+    align-self: flex-end;
+}
