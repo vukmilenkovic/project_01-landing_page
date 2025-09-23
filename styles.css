@@ -100,3 +100,14 @@
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
+
+.cards-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+}
+
+.cards-text p {
+    width: 150px;
+    text-align: center;
+}
