@@ -73,3 +73,30 @@
     font-size: 18px;
     color: #e5e7eb
 }
+
+/* Body section */
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+.body-top p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
