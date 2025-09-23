@@ -4,3 +4,21 @@
     max-height: 100vh;
     font-family: "Roboto", sans-serif;
 }
+
+.nav-links {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    gap: 1;
+    
+}
+
+.hero-container img {
+    height: 200px;
+    width: 300px;
+}
