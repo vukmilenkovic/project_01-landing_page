@@ -8,7 +8,7 @@
 .nav-links {
     background-color: #1F2937;
     display: flex;
-    
+    flex: 1;
     justify-content: space-between;
     padding: 10px 100px;
 
@@ -26,17 +26,38 @@
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    
 }
 
+
+
+/* Hero section */
 .hero-container {
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
-    gap: 1;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10px 100px;
     
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-btn {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
 .hero-container img {
     height: 200px;
     width: 300px;
+    border-radius: 10px;
 }
