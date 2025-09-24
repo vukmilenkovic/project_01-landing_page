@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+    
     font-family: "Roboto", sans-serif;
 }
 
@@ -131,4 +131,36 @@
 
 .quote {
     align-self: flex-end;
+}
+
+/* Call for action container */
+.call-for-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 30px 100px;
+}
+
+.call-for-action > * {
+    padding: 30px 50px;
+}
+
+.message {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.message-main {
+    font-weight: bold;
+}
+
+.cfa-btn {
+    margin-right: 50px;
+    padding: 5px 30px;
+    align-self: center;
+    border-radius: 10px;
+    border: 3px solid #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
 }
