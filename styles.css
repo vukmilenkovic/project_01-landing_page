@@ -164,3 +164,16 @@
     background-color: #3882f6;
     color: #e5e7eb;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer-txt {
+    color: #e5e7eb;
+    margin: 20px auto;
+}
